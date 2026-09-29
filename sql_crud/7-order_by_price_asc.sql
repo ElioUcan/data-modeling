@@ -1,1 +1,1 @@
-SELECT title, price FROM books ORDER BY price DESC;
+SELECT title, price FROM books ORDER BY price ASC;
