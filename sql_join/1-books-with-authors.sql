@@ -1,5 +1,5 @@
 select 
     b.title,
-    a.author_name
-from books b inner join authors a on a.id = b.id
+    a.name
+from books b inner join authors a on a.id = b.author_id
 order by b.title; 
